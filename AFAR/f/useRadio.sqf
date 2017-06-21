@@ -1,2 +1,0 @@
-//Radio interface created
-if(alive player&&"ItemRadio" in assignedItems player)then{player playAction"Gear";createDialog"AFAR_UI";titleText["Press 'Esc' key to put away radio","PLAIN"];titleFadeOut 5;};
