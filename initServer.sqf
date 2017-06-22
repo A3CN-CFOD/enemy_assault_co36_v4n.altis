@@ -104,4 +104,7 @@ _namearray = ["f16rearm_1","f16rearm_2"];
 ["Initialize", [true]] call BIS_fnc_dynamicGroups;
 ["RegisterGroup", [group (playableunits select 0),leader group (playableunits select 0),["insignia_GL", "Skull Squad", false]]] call BIS_fnc_dynamicGroups;
 
-//call ghst_fnc_randomobj;	
+//call ghst_fnc_randomobj;
+
+
+[] execVM "scripts\kp_wreckspawn.sqf";

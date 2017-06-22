@@ -136,7 +136,7 @@ ghst_local_vehicles = [];
 ghst_players = ["p1","p2","p3","p4","p5","p6","p7","p8","p9","p10","p11","p12","p13","p14","p15","p16","p17","p18","p1_1","p2_1","p3_1","p4_1","p5_1","p6_1","p7_1","p8_1","p9_1","p10_1","p11_1","p12_1","p13_1","p14_1","p15_1","p16_1","p17_1"];
 ghst_vehicles = ["heli_1","heli_2","vas1","vas2","vas3","bobcat_1","c130c_1","c130t_2"];
 
-player addEventHandler ["Respawn", {call ghst_fnc_playeraddactions}];  
+player addEventHandler ["Respawn", {call ghst_fnc_playeraddactions}];
 call ghst_fnc_playeraddactions;
 //player addEventHandler ["HandleDamage", {call ghst_fnc_savegear}];
 if ("PARAM_Fatigue" call BIS_fnc_getParamValue == 0) then {
@@ -150,7 +150,7 @@ if !("PARAM_AimSway" call BIS_fnc_getParamValue == 100) then {
 if ("PARAM_PIFF" call BIS_fnc_getParamValue == 1) then {
 	[ghst_players] call BIS_fnc_EXP_camp_IFF;//allplayers
 };
-//player addEventHandler ["Killed", {call ghst_fnc_remrandomspawn}];  
+//player addEventHandler ["Killed", {call ghst_fnc_remrandomspawn}];
 //call ghst_fnc_remrandomspawn;
 //systemChat "Saving initial loadout";
 
@@ -186,3 +186,6 @@ sleep 30;
 
 // Info text
 [str("Enemy Assault") , str(date select 1) + "." + str(date select 2) + "." + str(date select 0), str("By Ghost")] spawn BIS_fnc_infoText;
+
+
+player addEventHandler ["GetInMan", {[ _this select 2] execVM "scripts\kp_fuel_consumption.sqf";}];
