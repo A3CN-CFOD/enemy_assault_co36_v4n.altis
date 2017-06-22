@@ -52,7 +52,7 @@ class PARAM_AISkill
 	title= "    AI Accuracy and Speed Skill:";
 	values[]= { 1,2,3,4,5,6,7,8,9,10 };
 	texts[]= { "0.1","0.2","0.3","0.4","0.5","0.6","0.7","0.8","0.9","1.0" };
-	default= 2;
+	default= 4;
 	code = "";
 };
 class headlessClient
@@ -104,7 +104,7 @@ class PARAM_AimSway
 	title = "    Player Aiming Sway:";
 	values[] = {100,0,1,2,3,4,5,6,7,8,9,10};
 	texts[] = {"default","0","0.1","0.2","0.3","0.4","0.5","0.6","0.7","0.8","0.9","1.0"};
-	default = 100;
+	default = 4;
 };
 class PARAM_PMARKERS
 {
