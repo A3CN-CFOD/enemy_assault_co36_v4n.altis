@@ -108,3 +108,4 @@ _namearray = ["f16rearm_1","f16rearm_2"];
 
 
 [] execVM "scripts\kp_wreckspawn.sqf";
+[] execVM "scripts\fn_advancedTowingInit.sqf";

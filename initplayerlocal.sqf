@@ -189,3 +189,6 @@ sleep 30;
 
 
 player addEventHandler ["GetInMan", {[ _this select 2] execVM "scripts\kp_fuel_consumption.sqf";}];
+
+
+player execVM "scripts\simpleEP.sqf";
