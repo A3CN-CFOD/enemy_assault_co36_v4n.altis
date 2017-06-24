@@ -100,6 +100,8 @@ class cfgFunctions {
 	//ghst functions
 	#include "functions\cfgfunctions.hpp"
 	#include "CHVD\CfgFunctions.hpp"
+  #include "vip_cmn\fn\vip_cmn_fnc.hpp"
+  #include "vip_lit\fn\vip_lit_fnc.hpp"
 };
 
 // Comm Menu
@@ -128,3 +130,12 @@ class CfgDebriefing
 		pictureColor[] = {0.0,0.3,0.6,1};
 	};
 };
+
+
+
+
+
+	class CfgSounds {
+
+		#include "vip_lit\resource\vip_lit_cfgSounds.hpp"
+	};
