@@ -34,3 +34,7 @@ call compile  preprocessfile "comm_menusub.sqf";
 _igiload = execVM "IgiLoad\IgiLoadInit.sqf";
 
 //["Preload"] call BIS_fnc_arsenal;
+
+[] execVM "scripts\tags.sqf";
+
+[] execVM "scripts\VehicleAugmentation.sqf";
