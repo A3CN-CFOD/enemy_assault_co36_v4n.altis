@@ -24,3 +24,4 @@ _parameters = [
 
 // Start the script
 _parameters spawn ENGIMA_CIVILIANS_StartCivilians;
+// teste
