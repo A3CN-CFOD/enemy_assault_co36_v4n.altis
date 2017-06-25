@@ -8,7 +8,7 @@ class EditorData
 	toggles=106;
 	class ItemIDProvider
 	{
-		nextID=3440;
+		nextID=3442;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=430;
+		nextID=456;
 	};
 	class Camera
 	{
-		pos[]={14589.822,31.512077,16738.002};
-		dir[]={0.77772427,-0.45635903,-0.43259737};
-		up[]={0.39886868,0.88977236,-0.22186273};
-		aside[]={-0.48615691,-9.794021e-007,-0.87399846};
+		pos[]={14564.739,34.821022,16572};
+		dir[]={0.87982273,-0.41453642,-0.23272619};
+		up[]={0.40077165,0.91001767,-0.10601065};
+		aside[]={-0.25573358,-3.7498103e-007,-0.96680015};
 	};
 };
 binarizationWanted=0;
@@ -1469,11 +1469,10 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14587.425,18.701426,16805.213};
-						angles[]={0,5.4736948,0};
+						position[]={14626.209,18.701338,16568.109};
+						angles[]={0,5.5086083,0};
 					};
 					side="Empty";
-					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -1482,6 +1481,7 @@ class Mission
 					};
 					id=328;
 					type="Land_Noticeboard_F";
+					atlOffset=0.26262093;
 				};
 				class Item33
 				{
@@ -3705,7 +3705,6 @@ class Mission
 					{
 					};
 					id=505;
-					atlOffset=185.97;
 				};
 				class Item1
 				{
@@ -3738,7 +3737,6 @@ class Mission
 					{
 					};
 					id=518;
-					atlOffset=185.97;
 				};
 				class Item2
 				{
@@ -3771,7 +3769,6 @@ class Mission
 					{
 					};
 					id=520;
-					atlOffset=185.97;
 				};
 				class Item3
 				{
@@ -3824,7 +3821,6 @@ class Mission
 						};
 					};
 					id=528;
-					atlOffset=185.97;
 				};
 				class Item4
 				{
@@ -3897,7 +3893,6 @@ class Mission
 						};
 					};
 					id=531;
-					atlOffset=185.97;
 				};
 				class Item6
 				{
@@ -3969,7 +3964,6 @@ class Mission
 						};
 					};
 					id=534;
-					atlOffset=185.97;
 				};
 				class Item8
 				{
@@ -4041,7 +4035,6 @@ class Mission
 						};
 					};
 					id=556;
-					atlOffset=185.97;
 				};
 				class Item10
 				{
@@ -4113,7 +4106,6 @@ class Mission
 						};
 					};
 					id=559;
-					atlOffset=185.97;
 				};
 				class Item12
 				{
@@ -4165,7 +4157,6 @@ class Mission
 					{
 					};
 					id=562;
-					atlOffset=185.97;
 				};
 				class Item14
 				{
@@ -4241,7 +4232,6 @@ class Mission
 					{
 					};
 					id=564;
-					atlOffset=185.97;
 				};
 				class Item15
 				{
@@ -4274,7 +4264,6 @@ class Mission
 					{
 					};
 					id=566;
-					atlOffset=185.97;
 				};
 				class Item16
 				{
@@ -4420,7 +4409,6 @@ class Mission
 					{
 					};
 					id=570;
-					atlOffset=185.97;
 				};
 				class Item17
 				{
@@ -4473,7 +4461,7 @@ class Mission
 						};
 					};
 					id=582;
-					atlOffset=185.97;
+					atlOffset=-3.0517578e-005;
 				};
 				class Item18
 				{
@@ -4526,7 +4514,6 @@ class Mission
 					{
 					};
 					id=585;
-					atlOffset=185.97;
 				};
 				class Item20
 				{
@@ -4559,7 +4546,6 @@ class Mission
 					{
 					};
 					id=587;
-					atlOffset=185.97;
 				};
 				class Item21
 				{
@@ -4591,7 +4577,6 @@ class Mission
 					{
 					};
 					id=612;
-					atlOffset=185.97;
 				};
 				class Item22
 				{
@@ -4623,7 +4608,6 @@ class Mission
 					{
 					};
 					id=526;
-					atlOffset=185.97;
 				};
 				class Item23
 				{
@@ -4655,7 +4639,6 @@ class Mission
 					{
 					};
 					id=522;
-					atlOffset=185.97;
 				};
 				class Item24
 				{
@@ -4687,7 +4670,6 @@ class Mission
 					{
 					};
 					id=524;
-					atlOffset=185.97;
 				};
 				class Item25
 				{
@@ -5438,28 +5420,30 @@ class Mission
 				class Item66
 				{
 					dataType="Marker";
-					position[]={14587.495,0,16805.08};
+					position[]={14626.231,0,16568.316};
 					name="spawn_board";
 					text="Entrega de Veículos";
 					type="mil_dot";
 					colorName="ColorOrange";
 					a=0.5;
 					b=0.5;
+					angle=180.99997;
 					id=274;
-					atlOffset=-17.91;
+					atlOffset=-17.655811;
 				};
 				class Item67
 				{
 					dataType="Marker";
-					position[]={14580.747,17.91,16811.926};
+					position[]={14630.898,17.91,16564.574};
 					name="veh_spawn";
 					text="Vehicle Spawn";
 					type="Empty";
 					colorName="ColorOrange";
 					a=0.5;
 					b=0.5;
-					angle=45;
+					angle=314.99997;
 					id=275;
+					atlOffset=0.26826096;
 				};
 				class Item68
 				{
@@ -89143,7 +89127,7 @@ class Mission
 				};
 			};
 			id=3323;
-			atlOffset=-0.80101776;
+			atlOffset=-1.0377121;
 		};
 	};
 	class Connections
