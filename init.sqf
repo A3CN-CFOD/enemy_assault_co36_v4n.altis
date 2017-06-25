@@ -40,3 +40,6 @@ _igiload = execVM "IgiLoad\IgiLoadInit.sqf";
 [] execVM "scripts\VehicleAugmentation.sqf";
 
 [true,[false, false, false, true],[0,false,true],[[], true, false]] execVM "vip_lit\vip_lit_init.sqf";
+
+call compile preprocessFileLineNumbers "Engima\Civilians\Init.sqf";
+call compile preprocessFileLineNumbers "Engima\Traffic\Init.sqf";
