@@ -8,7 +8,7 @@ class EditorData
 	toggles=106;
 	class ItemIDProvider
 	{
-		nextID=3453;
+		nextID=3469;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=534;
+		nextID=586;
 	};
 	class Camera
 	{
-		pos[]={14607.695,28.128002,16841.771};
-		dir[]={0.78048515,-0.34943351,-0.51865584};
-		up[]={0.29105881,0.93694657,-0.19341716};
-		aside[]={-0.55352211,-1.6429694e-006,-0.83295768};
+		pos[]={14626.801,34.154469,16835.059};
+		dir[]={-0.52887774,-0.46890315,-0.70758808};
+		up[]={-0.28073186,0.88325971,-0.37559405};
+		aside[]={-0.80104822,-2.3964094e-006,0.59873521};
 	};
 };
 binarizationWanted=0;
@@ -823,7 +823,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=42;
+		items=49;
 		class Item0
 		{
 			dataType="Layer";
@@ -89124,6 +89124,279 @@ class Mission
 			};
 			id=3323;
 			atlOffset=-1.0377121;
+		};
+		class Item42
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14713.352,24.007999,16631.221};
+				angles[]={0,2.3561945,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=3454;
+			type="UserTexture10m_F";
+			atlOffset=5.9486656;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="A3CN\imagens\hb006.paa";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item43
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14746.107,27.168678,16599.281};
+				angles[]={0,5.4977875,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=3457;
+			type="UserTexture10m_F";
+			atlOffset=9.177948;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="A3CN\imagens\hb007.paa";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item44
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14595.3,21.465305,16752.617};
+				angles[]={0,5.4977875,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=3459;
+			type="UserTexture1m_F";
+			atlOffset=1.9383221;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="A3CN\imagens\hp007.paa";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item45
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14612.598,20.311001,16755.896};
+				angles[]={0,2.3561947,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=3461;
+			type="UserTexture1m_F";
+			atlOffset=1.6721535;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="A3CN\imagens\hb007.paa";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item46
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14606.016,20.198668,16743.043};
+				angles[]={0,2.3561947,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=3463;
+			type="UserTexture1m_F";
+			atlOffset=1.566576;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="A3CN\imagens\hb005.paa";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item47
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14624.855,19.35815,16745.133};
+				angles[]={0,0.76794529,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=3464;
+			type="UserTexture1m_F";
+			atlOffset=1.4481506;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="A3CN\imagens\hb006.paa";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item48
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14754.386,20.994514,16607.561};
+				angles[]={0,5.4803348,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=3465;
+			type="UserTexture1m_F";
+			atlOffset=3.0037842;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="A3CN\imagens\hb005.paa";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 	class Connections
