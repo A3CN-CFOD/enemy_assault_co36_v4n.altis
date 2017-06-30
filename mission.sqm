@@ -8,7 +8,7 @@ class EditorData
 	toggles=106;
 	class ItemIDProvider
 	{
-		nextID=3583;
+		nextID=3591;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=905;
+		nextID=935;
 	};
 	class Camera
 	{
-		pos[]={14568.296,29.451817,16803.584};
-		dir[]={0.54477406,-0.7059617,0.45286486};
-		up[]={0.54313302,0.70794541,0.45150504};
-		aside[]={0.63933653,1.0197982e-006,-0.76908398};
+		pos[]={14554.258,71.195503,16801.666};
+		dir[]={0.10961919,-0.98963684,-0.092772976};
+		up[]={0.75541848,0.14353703,-0.63932562};
+		aside[]={-0.6460166,-1.0826625e-007,-0.76332456};
 	};
 };
 binarizationWanted=0;
@@ -90235,7 +90235,7 @@ class Mission
 			name="marcacoes_pista";
 			class Entities
 			{
-				items=2;
+				items=6;
 				class Item0
 				{
 					dataType="Object";
@@ -90249,7 +90249,7 @@ class Mission
 					class Attributes
 					{
 					};
-					id=3579;
+					id=3583;
 					type="UserTexture10m_F";
 					atlOffset=0.00025558472;
 					class CustomAttributes
@@ -90289,7 +90289,7 @@ class Mission
 					class Attributes
 					{
 					};
-					id=3580;
+					id=3584;
 					type="UserTexture10m_F";
 					atlOffset=0.00025558472;
 					class CustomAttributes
@@ -90316,9 +90316,167 @@ class Mission
 						nAttributes=1;
 					};
 				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14562.131,17.91,16790.943};
+						angles[]={1.5707964,0,5.5120115};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=3587;
+					type="UserTexture10m_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectTextureCustom0";
+							expression="_this setObjectTextureGlobal [0,_value]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="A3CN\imagens\veiculo_d2.paa";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14569.088,17.91,16798.104};
+						angles[]={1.5707964,0,5.5120115};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=3588;
+					type="UserTexture10m_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectTextureCustom0";
+							expression="_this setObjectTextureGlobal [0,_value]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="A3CN\imagens\veiculo_d1.paa";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14642.601,17.910004,16712.73};
+						angles[]={1.5707964,0,5.5120115};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=3589;
+					type="UserTexture10m_F";
+					atlOffset=3.8146973e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectTextureCustom0";
+							expression="_this setObjectTextureGlobal [0,_value]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="A3CN\imagens\veiculo_d2.paa";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14649.558,17.910004,16719.891};
+						angles[]={1.5707964,0,5.5120115};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=3590;
+					type="UserTexture10m_F";
+					atlOffset=3.8146973e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectTextureCustom0";
+							expression="_this setObjectTextureGlobal [0,_value]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="A3CN\imagens\veiculo_d1.paa";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
 			};
 			id=3569;
-			atlOffset=0.00025558472;
+			atlOffset=7.6293945e-006;
 		};
 	};
 	class Connections
