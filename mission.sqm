@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.017453292;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=74;
+	toggles=106;
 	class ItemIDProvider
 	{
-		nextID=3563;
+		nextID=3570;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=815;
+		nextID=845;
 	};
 	class Camera
 	{
-		pos[]={14605.434,34.36945,16663.393};
-		dir[]={-0.65652096,-0.49293399,0.57118952};
-		up[]={-0.37204939,0.87001538,0.32369468};
-		aside[]={0.65642148,-1.8056016e-006,0.75450063};
+		pos[]={14589.831,42.794033,16817.594};
+		dir[]={-0.33968183,-0.92164314,-0.18829083};
+		up[]={-0.80613285,0.3880896,-0.44684932};
+		aside[]={-0.48485646,-5.9790909e-006,0.87467825};
 	};
 };
 binarizationWanted=0;
@@ -823,7 +823,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=44;
+		items=45;
 		class Item0
 		{
 			dataType="Layer";
@@ -3625,6 +3625,7 @@ class Mission
 					{
 					};
 					id=505;
+					atlOffset=185.97;
 				};
 				class Item1
 				{
@@ -3657,6 +3658,7 @@ class Mission
 					{
 					};
 					id=518;
+					atlOffset=185.97;
 				};
 				class Item2
 				{
@@ -3689,6 +3691,7 @@ class Mission
 					{
 					};
 					id=520;
+					atlOffset=185.97;
 				};
 				class Item3
 				{
@@ -3741,6 +3744,7 @@ class Mission
 						};
 					};
 					id=528;
+					atlOffset=185.97;
 				};
 				class Item4
 				{
@@ -3813,6 +3817,7 @@ class Mission
 						};
 					};
 					id=531;
+					atlOffset=185.97;
 				};
 				class Item6
 				{
@@ -3884,6 +3889,7 @@ class Mission
 						};
 					};
 					id=534;
+					atlOffset=185.97;
 				};
 				class Item8
 				{
@@ -3955,6 +3961,7 @@ class Mission
 						};
 					};
 					id=556;
+					atlOffset=185.97;
 				};
 				class Item10
 				{
@@ -4026,6 +4033,7 @@ class Mission
 						};
 					};
 					id=559;
+					atlOffset=185.97;
 				};
 				class Item12
 				{
@@ -4077,6 +4085,7 @@ class Mission
 					{
 					};
 					id=562;
+					atlOffset=185.97;
 				};
 				class Item14
 				{
@@ -4152,6 +4161,7 @@ class Mission
 					{
 					};
 					id=564;
+					atlOffset=185.97;
 				};
 				class Item15
 				{
@@ -4184,6 +4194,7 @@ class Mission
 					{
 					};
 					id=566;
+					atlOffset=185.97;
 				};
 				class Item16
 				{
@@ -4329,6 +4340,7 @@ class Mission
 					{
 					};
 					id=570;
+					atlOffset=185.97;
 				};
 				class Item17
 				{
@@ -4381,7 +4393,7 @@ class Mission
 						};
 					};
 					id=582;
-					atlOffset=-3.0517578e-005;
+					atlOffset=185.97;
 				};
 				class Item18
 				{
@@ -4434,6 +4446,7 @@ class Mission
 					{
 					};
 					id=585;
+					atlOffset=185.97;
 				};
 				class Item20
 				{
@@ -4466,6 +4479,7 @@ class Mission
 					{
 					};
 					id=587;
+					atlOffset=185.97;
 				};
 				class Item21
 				{
@@ -4497,6 +4511,7 @@ class Mission
 					{
 					};
 					id=612;
+					atlOffset=185.97;
 				};
 				class Item22
 				{
@@ -4528,6 +4543,7 @@ class Mission
 					{
 					};
 					id=526;
+					atlOffset=185.97;
 				};
 				class Item23
 				{
@@ -4559,6 +4575,7 @@ class Mission
 					{
 					};
 					id=522;
+					atlOffset=185.97;
 				};
 				class Item24
 				{
@@ -4590,6 +4607,7 @@ class Mission
 					{
 					};
 					id=524;
+					atlOffset=185.97;
 				};
 				class Item25
 				{
@@ -6261,7 +6279,7 @@ class Mission
 					};
 					id=1243;
 					type="B_UAV_AI";
-					atlOffset=0.00025463104;
+					atlOffset=0.00025510788;
 				};
 			};
 			class Attributes
@@ -89736,45 +89754,6 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14625.505,17.91,16657.406};
-						angles[]={1.5707964,0,0.79960513};
-					};
-					side="Empty";
-					flags=4;
-					class Attributes
-					{
-					};
-					id=3531;
-					type="UserTexture10m_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ObjectTextureCustom0";
-							expression="_this setObjectTextureGlobal [0,_value]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="A3CN\imagens\heli_pad_m_a1.2cores.paa";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
 						position[]={14632.456,17.91,16664.559};
 						angles[]={1.5707964,0,0.79960513};
 					};
@@ -89809,7 +89788,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item2
+				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
@@ -89848,7 +89827,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item3
+				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
@@ -89887,7 +89866,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item4
+				class Item3
 				{
 					dataType="Object";
 					class PositionInfo
@@ -89927,7 +89906,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item5
+				class Item4
 				{
 					dataType="Object";
 					class PositionInfo
@@ -89967,7 +89946,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item6
+				class Item5
 				{
 					dataType="Object";
 					class PositionInfo
@@ -90007,7 +89986,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item7
+				class Item6
 				{
 					dataType="Object";
 					class PositionInfo
@@ -90047,7 +90026,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item8
+				class Item7
 				{
 					dataType="Object";
 					class PositionInfo
@@ -90087,7 +90066,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item9
+				class Item8
 				{
 					dataType="Object";
 					class PositionInfo
@@ -90127,7 +90106,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item10
+				class Item9
 				{
 					dataType="Object";
 					class PositionInfo
@@ -90167,7 +90146,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item11
+				class Item10
 				{
 					dataType="Object";
 					class PositionInfo
@@ -90207,9 +90186,139 @@ class Mission
 						nAttributes=1;
 					};
 				};
+				class Item11
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14625.505,17.91,16657.406};
+						angles[]={1.5707964,0,0.79960513};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=3563;
+					type="UserTexture10m_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectTextureCustom0";
+							expression="_this setObjectTextureGlobal [0,_value]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="A3CN\imagens\heli_pad_m_a1.2cores.paa";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
 			};
 			id=3518;
-			atlOffset=-3.8146973e-006;
+			atlOffset=-0.0014400482;
+		};
+		class Item44
+		{
+			dataType="Layer";
+			name="marcacoes_pista";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14579.69,17.910168,16809.01};
+						angles[]={1.5707799,6.2831774,5.5120039};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=3567;
+					type="UserTexture10m_F";
+					atlOffset=0.00016784668;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectTextureCustom0";
+							expression="_this setObjectTextureGlobal [0,_value]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="A3CN\imagens\veiculo_a2.paa";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14586.646,17.910168,16816.168};
+						angles[]={1.5707799,2.2180993e-005,5.5120039};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=3565;
+					type="UserTexture10m_F";
+					atlOffset=0.00016784668;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectTextureCustom0";
+							expression="_this setObjectTextureGlobal [0,_value]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="A3CN\imagens\veiculo_a1.paa";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			id=3569;
+			atlOffset=0.00016784668;
 		};
 	};
 	class Connections
