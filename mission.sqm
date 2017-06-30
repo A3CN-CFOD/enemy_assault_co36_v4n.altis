@@ -8,7 +8,7 @@ class EditorData
 	toggles=106;
 	class ItemIDProvider
 	{
-		nextID=3570;
+		nextID=3583;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=845;
+		nextID=905;
 	};
 	class Camera
 	{
-		pos[]={14589.831,42.794033,16817.594};
-		dir[]={-0.33968183,-0.92164314,-0.18829083};
-		up[]={-0.80613285,0.3880896,-0.44684932};
-		aside[]={-0.48485646,-5.9790909e-006,0.87467825};
+		pos[]={14568.296,29.451817,16803.584};
+		dir[]={0.54477406,-0.7059617,0.45286486};
+		up[]={0.54313302,0.70794541,0.45150504};
+		aside[]={0.63933653,1.0197982e-006,-0.76908398};
 	};
 };
 binarizationWanted=0;
@@ -90227,7 +90227,7 @@ class Mission
 				};
 			};
 			id=3518;
-			atlOffset=-0.0014400482;
+			atlOffset=-1.9073486e-006;
 		};
 		class Item44
 		{
@@ -90241,17 +90241,17 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14579.69,17.910168,16809.01};
-						angles[]={1.5707799,6.2831774,5.5120039};
+						position[]={14578.104,17.910255,16807.377};
+						angles[]={1.5707964,0,5.5120115};
 					};
 					side="Empty";
 					flags=4;
 					class Attributes
 					{
 					};
-					id=3567;
+					id=3579;
 					type="UserTexture10m_F";
-					atlOffset=0.00016784668;
+					atlOffset=0.00025558472;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -90269,7 +90269,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="A3CN\imagens\veiculo_a2.paa";
+									value="A3CN\imagens\veiculo_b2.paa";
 								};
 							};
 						};
@@ -90281,17 +90281,17 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14586.646,17.910168,16816.168};
-						angles[]={1.5707799,2.2180993e-005,5.5120039};
+						position[]={14585.061,17.910255,16814.537};
+						angles[]={1.5707964,1.7453289e-005,5.5120106};
 					};
 					side="Empty";
 					flags=4;
 					class Attributes
 					{
 					};
-					id=3565;
+					id=3580;
 					type="UserTexture10m_F";
-					atlOffset=0.00016784668;
+					atlOffset=0.00025558472;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -90309,7 +90309,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="A3CN\imagens\veiculo_a1.paa";
+									value="A3CN\imagens\veiculo_b1.paa";
 								};
 							};
 						};
@@ -90318,7 +90318,7 @@ class Mission
 				};
 			};
 			id=3569;
-			atlOffset=0.00016784668;
+			atlOffset=0.00025558472;
 		};
 	};
 	class Connections
