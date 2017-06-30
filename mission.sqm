@@ -8,7 +8,7 @@ class EditorData
 	toggles=106;
 	class ItemIDProvider
 	{
-		nextID=3591;
+		nextID=3595;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=935;
+		nextID=965;
 	};
 	class Camera
 	{
-		pos[]={14554.258,71.195503,16801.666};
-		dir[]={0.10961919,-0.98963684,-0.092772976};
-		up[]={0.75541848,0.14353703,-0.63932562};
-		aside[]={-0.6460166,-1.0826625e-007,-0.76332456};
+		pos[]={14582.76,83.4571,16835.49};
+		dir[]={0.10717905,-0.98873276,-0.10451826};
+		up[]={0.7078768,0.14963585,-0.69030261};
+		aside[]={-0.69816482,-1.0628719e-007,-0.71593863};
 	};
 };
 binarizationWanted=0;
@@ -90233,250 +90233,8 @@ class Mission
 		{
 			dataType="Layer";
 			name="marcacoes_pista";
-			class Entities
-			{
-				items=6;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={14578.104,17.910255,16807.377};
-						angles[]={1.5707964,0,5.5120115};
-					};
-					side="Empty";
-					flags=4;
-					class Attributes
-					{
-					};
-					id=3583;
-					type="UserTexture10m_F";
-					atlOffset=0.00025558472;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ObjectTextureCustom0";
-							expression="_this setObjectTextureGlobal [0,_value]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="A3CN\imagens\veiculo_b2.paa";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={14585.061,17.910255,16814.537};
-						angles[]={1.5707964,1.7453289e-005,5.5120106};
-					};
-					side="Empty";
-					flags=4;
-					class Attributes
-					{
-					};
-					id=3584;
-					type="UserTexture10m_F";
-					atlOffset=0.00025558472;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ObjectTextureCustom0";
-							expression="_this setObjectTextureGlobal [0,_value]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="A3CN\imagens\veiculo_b1.paa";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={14562.131,17.91,16790.943};
-						angles[]={1.5707964,0,5.5120115};
-					};
-					side="Empty";
-					flags=4;
-					class Attributes
-					{
-					};
-					id=3587;
-					type="UserTexture10m_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ObjectTextureCustom0";
-							expression="_this setObjectTextureGlobal [0,_value]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="A3CN\imagens\veiculo_d2.paa";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={14569.088,17.91,16798.104};
-						angles[]={1.5707964,0,5.5120115};
-					};
-					side="Empty";
-					flags=4;
-					class Attributes
-					{
-					};
-					id=3588;
-					type="UserTexture10m_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ObjectTextureCustom0";
-							expression="_this setObjectTextureGlobal [0,_value]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="A3CN\imagens\veiculo_d1.paa";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item4
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={14642.601,17.910004,16712.73};
-						angles[]={1.5707964,0,5.5120115};
-					};
-					side="Empty";
-					flags=4;
-					class Attributes
-					{
-					};
-					id=3589;
-					type="UserTexture10m_F";
-					atlOffset=3.8146973e-006;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ObjectTextureCustom0";
-							expression="_this setObjectTextureGlobal [0,_value]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="A3CN\imagens\veiculo_d2.paa";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item5
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={14649.558,17.910004,16719.891};
-						angles[]={1.5707964,0,5.5120115};
-					};
-					side="Empty";
-					flags=4;
-					class Attributes
-					{
-					};
-					id=3590;
-					type="UserTexture10m_F";
-					atlOffset=3.8146973e-006;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ObjectTextureCustom0";
-							expression="_this setObjectTextureGlobal [0,_value]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="A3CN\imagens\veiculo_d1.paa";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
 			id=3569;
-			atlOffset=7.6293945e-006;
+			atlOffset=3.8146973e-006;
 		};
 	};
 	class Connections
