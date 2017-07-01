@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=965;
+		nextID=995;
 	};
 	class Camera
 	{
-		pos[]={14582.76,83.4571,16835.49};
-		dir[]={0.10717905,-0.98873276,-0.10451826};
-		up[]={0.7078768,0.14963585,-0.69030261};
-		aside[]={-0.69816482,-1.0628719e-007,-0.71593863};
+		pos[]={14637.063,20.371027,16814.832};
+		dir[]={0.028286692,-0.086126469,-0.99592924};
+		up[]={0.0024463281,0.99627578,-0.086168133};
+		aside[]={-0.99964565,-2.7972692e-007,-0.028391777};
 	};
 };
 binarizationWanted=0;
@@ -83565,7 +83565,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="billboards";
-			state=1;
 			class Entities
 			{
 				items=116;
@@ -84489,39 +84488,20 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14632.879,20.78034,16811.811};
-						angles[]={3.1415951,5.4977894,6.283185};
+						position[]={14632.879,18.557915,16811.811};
+						angles[]={0,3.9095378,0};
 					};
 					side="Empty";
-					flags=1;
+					flags=5;
 					class Attributes
 					{
 					};
 					id=3345;
 					type="SignAd_SponsorS_F";
-					atlOffset=1.6038723;
+					atlOffset=-0.49355316;
 					class CustomAttributes
 					{
 						class Attribute0
-						{
-							property="ObjectTextureCustom0";
-							expression="_this setObjectTextureGlobal [0,_value]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="A3CN\imagens\fob_name.paa";
-								};
-							};
-						};
-						class Attribute1
 						{
 							property="allowDamage";
 							expression="_this allowdamage _value;";
@@ -84540,7 +84520,45 @@ class Mission
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute1
+						{
+							property="ObjectTextureCustom0";
+							expression="_this setObjectTextureGlobal [0,_value]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="A3CN\imagens\fob_name.paa";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="Enh_featureType";
+							expression="_this setFeatureType (parseNumber _value)";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="0";
+								};
+							};
+						};
+						nAttributes=3;
 					};
 				};
 				class Item21
@@ -90234,7 +90252,7 @@ class Mission
 			dataType="Layer";
 			name="marcacoes_pista";
 			id=3569;
-			atlOffset=3.8146973e-006;
+			atlOffset=185.97;
 		};
 	};
 	class Connections
