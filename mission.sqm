@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1028;
+		nextID=1059;
 	};
 	class Camera
 	{
-		pos[]={14576.268,42.91,16808.291};
-		dir[]={0.27146927,-0.91051453,0.31188697};
-		up[]={0.59779161,0.41347292,0.68679434};
-		aside[]={0.75429326,1.7294224e-007,-0.65654451};
+		pos[]={14646.945,62.581249,16653.207};
+		dir[]={-0.75813216,-0.40285507,0.51293743};
+		up[]={-0.33367547,0.91526026,0.2257584};
+		aside[]={0.56041646,-4.2724423e-007,0.82830733};
 	};
 };
 binarizationWanted=0;
@@ -871,6 +871,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="Base Layer ";
+			state=1;
 			class Entities
 			{
 				items=96;
@@ -2765,6 +2766,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="baseLayer  2";
+			state=1;
 			class Entities
 			{
 				items=94;
@@ -6554,6 +6556,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="base_principal";
+			state=1;
 			class Entities
 			{
 				items=520;
@@ -27512,6 +27515,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="muro";
+			state=1;
 			class Entities
 			{
 				items=72;
@@ -30492,6 +30496,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="luz";
+			state=1;
 			class Entities
 			{
 				items=12;
@@ -30972,6 +30977,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="interno";
+			state=1;
 			class Entities
 			{
 				items=164;
@@ -31773,44 +31779,6 @@ class Mission
 					{
 						class Attribute0
 						{
-							property="allowDamage";
-							expression="_this allowdamage _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="Enh_featureType";
-							expression="_this setFeatureType (parseNumber _value)";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="0";
-								};
-							};
-						};
-						class Attribute2
-						{
 							property="ammoBox";
 							expression="[_this,_value] call bis_fnc_initAmmoBox;";
 							class Value
@@ -31828,7 +31796,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=3;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 				class Item19
@@ -35255,44 +35242,6 @@ class Mission
 					{
 						class Attribute0
 						{
-							property="allowDamage";
-							expression="_this allowdamage _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="Enh_featureType";
-							expression="_this setFeatureType (parseNumber _value)";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="0";
-								};
-							};
-						};
-						class Attribute2
-						{
 							property="ammoBox";
 							expression="[_this,_value] call bis_fnc_initAmmoBox;";
 							class Value
@@ -35310,7 +35259,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=3;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 				class Item98
@@ -36111,44 +36079,6 @@ class Mission
 					{
 						class Attribute0
 						{
-							property="allowDamage";
-							expression="_this allowdamage _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="Enh_featureType";
-							expression="_this setFeatureType (parseNumber _value)";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="0";
-								};
-							};
-						};
-						class Attribute2
-						{
 							property="ammoBox";
 							expression="[_this,_value] call bis_fnc_initAmmoBox;";
 							class Value
@@ -36166,7 +36096,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=3;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 				class Item118
@@ -36232,44 +36181,6 @@ class Mission
 					{
 						class Attribute0
 						{
-							property="allowDamage";
-							expression="_this allowdamage _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="Enh_featureType";
-							expression="_this setFeatureType (parseNumber _value)";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="0";
-								};
-							};
-						};
-						class Attribute2
-						{
 							property="ammoBox";
 							expression="[_this,_value] call bis_fnc_initAmmoBox;";
 							class Value
@@ -36287,7 +36198,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=3;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 				class Item120
@@ -37256,25 +37186,6 @@ class Mission
 					{
 						class Attribute0
 						{
-							property="Enh_featureType";
-							expression="_this setFeatureType (parseNumber _value)";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="0";
-								};
-							};
-						};
-						class Attribute1
-						{
 							property="allowDamage";
 							expression="_this allowdamage _value;";
 							class Value
@@ -37292,7 +37203,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=2;
+						nAttributes=1;
 					};
 				};
 				class Item144
@@ -38123,6 +38034,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="prateleira_medica";
+			state=1;
 			class Entities
 			{
 				items=27;
@@ -39291,6 +39203,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="refrigerador_medico";
+			state=1;
 			class Entities
 			{
 				items=13;
@@ -39835,6 +39748,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="cia";
+			state=1;
 			class Entities
 			{
 				items=3;
@@ -54321,6 +54235,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="medical_area";
+			state=1;
 			class Entities
 			{
 				items=94;
@@ -59329,6 +59244,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="lobby";
+			state=1;
 			class Entities
 			{
 				items=23;
@@ -60589,6 +60505,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="pier";
+			state=1;
 			class Entities
 			{
 				items=64;
@@ -63250,6 +63167,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="farol";
+			state=1;
 			class Entities
 			{
 				items=37;
@@ -64811,6 +64729,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="patio";
+			state=1;
 			class Entities
 			{
 				items=62;
@@ -67326,6 +67245,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="independente";
+			state=1;
 			class Entities
 			{
 				items=56;
@@ -70236,6 +70156,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="base_principal_2";
+			state=1;
 			class Entities
 			{
 				items=220;
@@ -79727,6 +79648,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="area_treino_brushes";
+			state=1;
 			class Entities
 			{
 				items=96;
@@ -83629,6 +83551,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="billboards";
+			state=1;
 			class Entities
 			{
 				items=116;
@@ -84570,25 +84493,6 @@ class Mission
 					{
 						class Attribute0
 						{
-							property="allowDamage";
-							expression="_this allowdamage _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
 							property="ObjectTextureCustom0";
 							expression="_this setObjectTextureGlobal [0,_value]";
 							class Value
@@ -84606,10 +84510,10 @@ class Mission
 								};
 							};
 						};
-						class Attribute2
+						class Attribute1
 						{
-							property="Enh_featureType";
-							expression="_this setFeatureType (parseNumber _value)";
+							property="allowDamage";
+							expression="_this allowdamage _value;";
 							class Value
 							{
 								class data
@@ -84618,14 +84522,14 @@ class Mission
 									{
 										type[]=
 										{
-											"STRING"
+											"BOOL"
 										};
 									};
-									value="0";
+									value=0;
 								};
 							};
 						};
-						nAttributes=3;
+						nAttributes=2;
 					};
 				};
 				class Item21
@@ -89145,6 +89049,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="pinturas";
+			state=1;
 			class Entities
 			{
 				items=8;
@@ -89468,6 +89373,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="helipad_g";
+			state=1;
 			class Entities
 			{
 				items=9;
@@ -89829,6 +89735,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="helipad_m";
+			state=1;
 			class Entities
 			{
 				items=12;
@@ -90316,6 +90223,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="marcacoes_pista";
+			state=1;
 			id=3569;
 			atlOffset=185.97;
 		};
@@ -90323,6 +90231,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="Freedom";
+			state=1;
 			class Entities
 			{
 				items=1;
@@ -90347,44 +90256,6 @@ class Mission
 					{
 						class Attribute0
 						{
-							property="allowDamage";
-							expression="_this allowdamage _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="Enh_featureType";
-							expression="_this setFeatureType (parseNumber _value)";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="0";
-								};
-							};
-						};
-						class Attribute2
-						{
 							property="ammoBox";
 							expression="[_this,_value] call bis_fnc_initAmmoBox;";
 							class Value
@@ -90402,7 +90273,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=3;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 			};
