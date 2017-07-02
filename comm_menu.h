@@ -121,5 +121,15 @@ class CfgCommunicationMenu
         enable = "1"; // Simple expression condition for enabling the item
         //removeAfterExpressionCall = 1; // 1 to remove the item after calling
     };	
+    class Debug
+    {
+        text = "Set All Tasks Complete Debug"; // Text displayed in the menu and in a notification
+        submenu = ""; // Submenu opened upon activation (expression is ignored when submenu is not empty.)
+        expression = "[player] remoteExec ['ghst_fnc_debugtasks',2];"; // Code executed upon activation
+        icon = "";//"\a3\Ui_f\data\GUI\Cfg\CommunicationMenu\transport_ca.paa"; // Icon displayed permanently next to the command menu
+        cursor = ""; // Custom cursor displayed when the item is selected
+        enable = "1"; // Simple expression condition for enabling the item
+        //removeAfterExpressionCall = 1; // 1 to remove the item after calling
+    };
 	
 };

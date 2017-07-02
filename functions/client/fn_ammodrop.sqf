@@ -62,7 +62,7 @@ _wphome = _airgrp1 addWaypoint [_spawnmark, 0];
 
 //tracking Marker
 _trackname = format ["%1 Ammo Drop", name player];
-[_air1, "ColorGreen", _trackname, true] spawn ghst_fnc_tracker;
+[_air1, "colorBLUFOR", "b_support", _trackname, true] spawn ghst_fnc_tracker;
 
 _time_delay = time + 600;
 While {(alive _air1) and {canmove _air1}} do {// and (_air1 distance _pos) > 50
@@ -91,7 +91,7 @@ _ghst_drop attachTo [_chute1,[0,0,1]];
 		//detach _crate;
 		_crate setposatl [getposatl _crate select 0,getposatl _crate select 1,0];
 		_crate_name = "Ammo Box";//getText (configFile >> "cfgVehicles" >> (_droptype) >> "displayName");
-		[_crate, "ColorBlack", _crate_name] spawn ghst_fnc_tracker;
+		[_crate, "ColorBlack", "mil_box", _crate_name] spawn ghst_fnc_tracker;
 		//_crate call ghst_fnc_magazines;
 		_chem = createMine ["placed_chemlight_green", (position _crate), [], 0];
 		sleep 3;

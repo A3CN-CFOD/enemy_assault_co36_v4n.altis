@@ -85,7 +85,7 @@ _taskdesc = format ["Locate %1 and blow it up.", _build_name];
 [true,[_tsk],[_taskdesc,_tasktopic,_taskmark],_buildpos,0,2,true,"Destroy"] call BIS_fnc_taskCreate;
 
 //create trigger for build destruction
-_trig1stat = format ["(damage (%1 nearestObject '%2')) >= 0.5",_buildpos,_objtype];
+_trig1stat = format ["!(alive (%1 nearestObject '%2')) or ((damage (%1 nearestObject '%2')) >= 0.5)",_buildpos,_objtype];
 _trig1act = format ["deleteVehicle thistrigger; (%2 nearestObject '%3') setdamage 1; [""%1"",'succeeded'] call BIS_fnc_taskSetState; [playableunits,5000,100] remoteExec ['ghst_fnc_addscore'];", _tsk, _buildpos, _objtype];
 _trg1 = createTrigger["EmptyDetector",_buildpos];
 _trg1 setTriggerArea[_patrol_rad,0,false];

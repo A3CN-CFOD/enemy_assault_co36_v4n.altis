@@ -142,7 +142,7 @@ _wpdrop setWaypointBehaviour "CARELESS";
 
 //tracking Marker
 _trackname = format ["%1 Cargo Drop", name player];
-[_air1, "ColorGreen", _trackname, true] spawn ghst_fnc_tracker;
+[_air1, "ColorGreen", "mil_DOT",_trackname, true] spawn ghst_fnc_tracker;
 
 // Delete the crew and planes once they hit the egress point.
 _wphome = _airgrp1 addWaypoint [_spawnmark, 0];
@@ -177,7 +177,7 @@ _ghst_drop attachTo [_chute1,[0,0,0]];
 				detach _veh;
 				_veh setvelocity [0,0,0];
 				//_veh setposatl [(getposatl _veh select 0),(getposatl _veh select 1) + 5,0.2];		
-				[_veh, "ColorGrey", _veh_name] call ghst_fnc_tracker;
+				[_veh, "ColorGrey", "mil_DOT", _veh_name] call ghst_fnc_tracker;
 				//_smoke = "SmokeShellGreen" createVehicle (getPosatl _veh);
 			};
 

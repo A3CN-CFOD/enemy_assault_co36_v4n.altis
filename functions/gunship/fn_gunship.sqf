@@ -63,7 +63,7 @@ _air1 move _pos;
 
 //tracking Marker
 _trackname = format ["%1 Gunship", name player];
-[_air1, "ColorGreen", _trackname, true] spawn ghst_fnc_tracker;
+[_air1, "colorBLUFOR", "b_plane", _trackname, true] spawn ghst_fnc_tracker;
 
 waituntil { (_pos distance2D _air1 < _rad + 300) or {!(alive _air1)} or {!(canmove _air1)} or {!(alive (driver _air1))} };
 

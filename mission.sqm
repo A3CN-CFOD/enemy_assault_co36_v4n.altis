@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=997;
+		nextID=1028;
 	};
 	class Camera
 	{
-		pos[]={14664.973,22.475786,3478.4436};
-		dir[]={0.54896551,-0.31806234,-0.77312678};
-		up[]={0.18416853,0.94805193,-0.25936943};
-		aside[]={-0.81546348,1.4752804e-006,-0.57903022};
+		pos[]={14543.033,71.442619,3423.3477};
+		dir[]={0.81353503,-0.52116042,0.25845531};
+		up[]={0.49670684,0.85343724,0.15780203};
+		aside[]={0.30282292,-6.16943e-007,-0.95317239};
 	};
 };
 binarizationWanted=0;
@@ -54341,7 +54341,7 @@ class Mission
 				};
 			};
 			id=2170;
-			atlOffset=148.90456;
+			atlOffset=0.91832733;
 		};
 		class Item20
 		{
@@ -90380,7 +90380,7 @@ class Mission
 					};
 					id=3598;
 					type="B_CargoNet_01_ammo_F";
-					atlOffset=0.048627853;
+					atlOffset=0.0028610229;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -90445,7 +90445,7 @@ class Mission
 				};
 			};
 			id=3596;
-			atlOffset=0.048627853;
+			atlOffset=0.0028610229;
 		};
 	};
 	class Connections

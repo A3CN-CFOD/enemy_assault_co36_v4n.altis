@@ -127,7 +127,7 @@ DLG_VEH_SELECTED = false;
 	};
 	*/
 	//_veh1 addEventHandler ["killed", {_this execvm "scripts\ghst_vehdelete.sqf"}];
-	[_veh1, "ColorGrey", _veh_name] spawn ghst_fnc_tracker;
+	[_veh1, "ColorGrey", "mil_DOT", _veh_name] spawn ghst_fnc_tracker;
 	//cutText [Format ["%1 Spawned", _veh_name],"PLAIN",2];
 	//hint format ["%1 Spawned", _veh_name];
 	titleText [format ["%1 Spawned", _veh_name], "PLAIN DOWN"]; titleFadeOut 5;

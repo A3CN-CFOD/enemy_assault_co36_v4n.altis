@@ -26,6 +26,7 @@ class GHST
 		class headlessclient {description = "headless client check";};
 		class loadgear {description = "loads gear for respawns";};
 		class mark_local {description = "creates marker local";};
+		class mark_global {description = "creates marker global";};
 		class mark_point {description = "creates marker global";};
 		class pmarkcolor {description = "gets color of side for markers";};
 		class pmarkers {description = "creates tracking markers for players";};
@@ -38,6 +39,7 @@ class GHST
 		class vehmarkers {description = "creates tracking markers for vehicles placed using editor";};
 		class waypoints {description = "creates waypoints with cycle";};
 		class waypoints_unload {description = "create a waypoint that unloads then a set of patrol waypoints on cycle";};
+		class tracker {description = "tracking player spawned vehicles locally";};
 	};
 	class vehlists
 	{
@@ -99,7 +101,6 @@ class GHST
 	{
 		file = "functions\client";
 		class halo {description = "player halo";};
-		class tracker {description = "tracking player spawned vehicles locally";};
 		class ptracker {description = "tracking mission vehicles";};
 		class remotedesignator {description = "deploys remote designator";};
 		class ammodrop {description = "player ammo crate call in";};
@@ -138,7 +139,10 @@ class GHST
 		class init_transport {description = "init transport option";};
 		class dest_transport {description = "transport destination";};
 		class rtb_transport {description = "transport rtb";};
+		class mappos {description = "gets pos from mapclick";};
+		class transportserver {description = "server function for airlift";};
 		class init_airlift {description = "init airlift option";};
+		class airliftserver {description = "server function for airlift";};
 	};
 	class gunship
 	{
@@ -158,5 +162,6 @@ class GHST
 	{
 		file = "functions\server";
 		class randweather {description = "random weather to be spawned on server";};
+		class debugtasks {description = "debug to set tasks to complete";};
 	};
 };
