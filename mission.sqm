@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={14543.033,71.442619,3423.3477};
-		dir[]={0.81353503,-0.52116042,0.25845531};
-		up[]={0.49670684,0.85343724,0.15780203};
-		aside[]={0.30282292,-6.16943e-007,-0.95317239};
+		pos[]={14576.268,42.91,16808.291};
+		dir[]={0.27146927,-0.91051453,0.31188697};
+		up[]={0.59779161,0.41347292,0.68679434};
+		aside[]={0.75429326,1.7294224e-007,-0.65654451};
 	};
 };
 binarizationWanted=0;
@@ -871,7 +871,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="Base Layer ";
-			state=1;
 			class Entities
 			{
 				items=96;
@@ -2766,7 +2765,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="baseLayer  2";
-			state=1;
 			class Entities
 			{
 				items=94;
@@ -3668,7 +3666,6 @@ class Mission
 					{
 					};
 					id=505;
-					atlOffset=185.97;
 				};
 				class Item1
 				{
@@ -3701,7 +3698,6 @@ class Mission
 					{
 					};
 					id=518;
-					atlOffset=185.97;
 				};
 				class Item2
 				{
@@ -3734,7 +3730,6 @@ class Mission
 					{
 					};
 					id=520;
-					atlOffset=185.97;
 				};
 				class Item3
 				{
@@ -3787,7 +3782,6 @@ class Mission
 						};
 					};
 					id=528;
-					atlOffset=185.97;
 				};
 				class Item4
 				{
@@ -3860,7 +3854,6 @@ class Mission
 						};
 					};
 					id=531;
-					atlOffset=185.97;
 				};
 				class Item6
 				{
@@ -3932,7 +3925,6 @@ class Mission
 						};
 					};
 					id=534;
-					atlOffset=185.97;
 				};
 				class Item8
 				{
@@ -4004,7 +3996,6 @@ class Mission
 						};
 					};
 					id=556;
-					atlOffset=185.97;
 				};
 				class Item10
 				{
@@ -4076,7 +4067,6 @@ class Mission
 						};
 					};
 					id=559;
-					atlOffset=185.97;
 				};
 				class Item12
 				{
@@ -4128,7 +4118,6 @@ class Mission
 					{
 					};
 					id=562;
-					atlOffset=185.97;
 				};
 				class Item14
 				{
@@ -4204,7 +4193,6 @@ class Mission
 					{
 					};
 					id=564;
-					atlOffset=185.97;
 				};
 				class Item15
 				{
@@ -4237,7 +4225,6 @@ class Mission
 					{
 					};
 					id=566;
-					atlOffset=185.97;
 				};
 				class Item16
 				{
@@ -4383,7 +4370,6 @@ class Mission
 					{
 					};
 					id=570;
-					atlOffset=185.97;
 				};
 				class Item17
 				{
@@ -4436,7 +4422,7 @@ class Mission
 						};
 					};
 					id=582;
-					atlOffset=185.97;
+					atlOffset=-3.0517578e-005;
 				};
 				class Item18
 				{
@@ -4489,7 +4475,6 @@ class Mission
 					{
 					};
 					id=585;
-					atlOffset=185.97;
 				};
 				class Item20
 				{
@@ -4522,7 +4507,6 @@ class Mission
 					{
 					};
 					id=587;
-					atlOffset=185.97;
 				};
 				class Item21
 				{
@@ -4554,7 +4538,6 @@ class Mission
 					{
 					};
 					id=612;
-					atlOffset=185.97;
 				};
 				class Item22
 				{
@@ -4586,7 +4569,6 @@ class Mission
 					{
 					};
 					id=526;
-					atlOffset=185.97;
 				};
 				class Item23
 				{
@@ -4618,7 +4600,6 @@ class Mission
 					{
 					};
 					id=522;
-					atlOffset=185.97;
 				};
 				class Item24
 				{
@@ -4650,7 +4631,6 @@ class Mission
 					{
 					};
 					id=524;
-					atlOffset=185.97;
 				};
 				class Item25
 				{
@@ -5401,7 +5381,7 @@ class Mission
 				class Item66
 				{
 					dataType="Marker";
-					position[]={14626.231,0,16568.316};
+					position[]={14590.322,-0.26827621,16809.766};
 					name="spawn_board";
 					text="Entrega de Veículos";
 					type="mil_dot";
@@ -5410,12 +5390,12 @@ class Mission
 					b=0.5;
 					angle=180.99997;
 					id=274;
-					atlOffset=-17.655811;
+					atlOffset=-18.178276;
 				};
 				class Item67
 				{
 					dataType="Marker";
-					position[]={14630.898,17.91,16564.574};
+					position[]={14581.68,17.641724,16813.49};
 					name="veh_spawn";
 					text="Vehicle Spawn";
 					type="Empty";
@@ -5424,7 +5404,7 @@ class Mission
 					b=0.5;
 					angle=314.99988;
 					id=275;
-					atlOffset=0.26826096;
+					atlOffset=-0.26827621;
 				};
 				class Item68
 				{
@@ -6574,7 +6554,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="base_principal";
-			state=1;
 			class Entities
 			{
 				items=520;
@@ -27533,7 +27512,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="muro";
-			state=1;
 			class Entities
 			{
 				items=72;
@@ -30514,7 +30492,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="luz";
-			state=1;
 			class Entities
 			{
 				items=12;
@@ -38146,7 +38123,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="prateleira_medica";
-			state=1;
 			class Entities
 			{
 				items=27;
@@ -39315,7 +39291,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="refrigerador_medico";
-			state=1;
 			class Entities
 			{
 				items=13;
@@ -39860,7 +39835,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="cia";
-			state=1;
 			class Entities
 			{
 				items=3;
@@ -54347,7 +54321,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="medical_area";
-			state=1;
 			class Entities
 			{
 				items=94;
@@ -59356,7 +59329,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="lobby";
-			state=1;
 			class Entities
 			{
 				items=23;
@@ -60617,7 +60589,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="pier";
-			state=1;
 			class Entities
 			{
 				items=64;
@@ -63279,7 +63250,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="farol";
-			state=1;
 			class Entities
 			{
 				items=37;
@@ -64841,7 +64811,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="patio";
-			state=1;
 			class Entities
 			{
 				items=62;
@@ -67357,7 +67326,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="independente";
-			state=1;
 			class Entities
 			{
 				items=56;
@@ -70268,7 +70236,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="base_principal_2";
-			state=1;
 			class Entities
 			{
 				items=220;
@@ -79760,7 +79727,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="area_treino_brushes";
-			state=1;
 			class Entities
 			{
 				items=96;
@@ -89179,7 +89145,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="pinturas";
-			state=1;
 			class Entities
 			{
 				items=8;
@@ -89503,7 +89468,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="helipad_g";
-			state=1;
 			class Entities
 			{
 				items=9;
@@ -89865,7 +89829,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="helipad_m";
-			state=1;
 			class Entities
 			{
 				items=12;
@@ -90353,7 +90316,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="marcacoes_pista";
-			state=1;
 			id=3569;
 			atlOffset=185.97;
 		};
