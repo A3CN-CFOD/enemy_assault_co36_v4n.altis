@@ -49,7 +49,7 @@ deletevehicle patrol_car1;
 //Enemy Unit list
 call ghst_fnc_unitlist;
 
-[["AA1","AA2","AA3","AA4"],ghst_friendlybase_def,[aa1,aa2,aa3,aa4,aa5,saa1,saa2,saa3,saa4,saa5,saa6,saa7],false,WEST] spawn ghst_fnc_basedef;
+[["AA1","AA2","AA3","AA4"],ghst_friendlybase_def,[aa1,aa2,aa3,aa4,saa1,saa2,saa3,saa4,saa5,saa6,saa7],false,WEST] spawn ghst_fnc_basedef;
 
 [getposatl ghst_artillery,ghst_friendlybase_arty,50,[0,-15,+15],false,WEST] spawn ghst_fnc_basearty;
 ghst_mapsize = getNumber (configfile >> "CfgWorlds" >> worldName >> "mapSize") / 2;
@@ -106,8 +106,7 @@ _namearray = ["f16rearm_1","f16rearm_2"];
 
 //call ghst_fnc_randomobj;
 
-
-[] execVM "scripts\kp_wreckspawn.sqf";
+//[] execVM "scripts\kp_wreckspawn.sqf";
 [] execVM "scripts\fn_advancedTowingInit.sqf";
 
 
@@ -122,7 +121,7 @@ while {true} do
     }
     else
     {
-        setTimeMultiplier 4      // adjust this value for slower or faster day cycle  ( 12 hours will take 1 hour )
+        setTimeMultiplier 5      // adjust this value for slower or faster day cycle  ( 12 hours will take 1 hour )
     };
 
     uiSleep 30;
