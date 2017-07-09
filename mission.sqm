@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1059;
+		nextID=1090;
 	};
 	class Camera
 	{
-		pos[]={14646.945,62.581249,16653.207};
-		dir[]={-0.75813216,-0.40285507,0.51293743};
-		up[]={-0.33367547,0.91526026,0.2257584};
-		aside[]={0.56041646,-4.2724423e-007,0.82830733};
+		pos[]={14588.641,28.099934,16730.809};
+		dir[]={0.1168313,-0.30544046,0.94515342};
+		up[]={0.037475839,0.95221055,0.30318925};
+		aside[]={0.99255764,-5.7934085e-007,-0.12268984};
 	};
 };
 binarizationWanted=0;
@@ -3668,6 +3668,7 @@ class Mission
 					{
 					};
 					id=505;
+					atlOffset=185.97;
 				};
 				class Item1
 				{
@@ -3700,6 +3701,7 @@ class Mission
 					{
 					};
 					id=518;
+					atlOffset=185.97;
 				};
 				class Item2
 				{
@@ -3732,6 +3734,7 @@ class Mission
 					{
 					};
 					id=520;
+					atlOffset=185.97;
 				};
 				class Item3
 				{
@@ -3784,6 +3787,7 @@ class Mission
 						};
 					};
 					id=528;
+					atlOffset=185.97;
 				};
 				class Item4
 				{
@@ -3856,6 +3860,7 @@ class Mission
 						};
 					};
 					id=531;
+					atlOffset=185.97;
 				};
 				class Item6
 				{
@@ -3927,6 +3932,7 @@ class Mission
 						};
 					};
 					id=534;
+					atlOffset=185.97;
 				};
 				class Item8
 				{
@@ -3998,6 +4004,7 @@ class Mission
 						};
 					};
 					id=556;
+					atlOffset=185.97;
 				};
 				class Item10
 				{
@@ -4069,6 +4076,7 @@ class Mission
 						};
 					};
 					id=559;
+					atlOffset=185.97;
 				};
 				class Item12
 				{
@@ -4120,6 +4128,7 @@ class Mission
 					{
 					};
 					id=562;
+					atlOffset=185.97;
 				};
 				class Item14
 				{
@@ -4195,6 +4204,7 @@ class Mission
 					{
 					};
 					id=564;
+					atlOffset=185.97;
 				};
 				class Item15
 				{
@@ -4227,6 +4237,7 @@ class Mission
 					{
 					};
 					id=566;
+					atlOffset=185.97;
 				};
 				class Item16
 				{
@@ -4372,6 +4383,7 @@ class Mission
 					{
 					};
 					id=570;
+					atlOffset=185.97;
 				};
 				class Item17
 				{
@@ -4424,7 +4436,7 @@ class Mission
 						};
 					};
 					id=582;
-					atlOffset=-3.0517578e-005;
+					atlOffset=185.97;
 				};
 				class Item18
 				{
@@ -4477,6 +4489,7 @@ class Mission
 					{
 					};
 					id=585;
+					atlOffset=185.97;
 				};
 				class Item20
 				{
@@ -4509,6 +4522,7 @@ class Mission
 					{
 					};
 					id=587;
+					atlOffset=185.97;
 				};
 				class Item21
 				{
@@ -4540,6 +4554,7 @@ class Mission
 					{
 					};
 					id=612;
+					atlOffset=185.97;
 				};
 				class Item22
 				{
@@ -4571,6 +4586,7 @@ class Mission
 					{
 					};
 					id=526;
+					atlOffset=185.97;
 				};
 				class Item23
 				{
@@ -4602,6 +4618,7 @@ class Mission
 					{
 					};
 					id=522;
+					atlOffset=185.97;
 				};
 				class Item24
 				{
@@ -4633,6 +4650,7 @@ class Mission
 					{
 					};
 					id=524;
+					atlOffset=185.97;
 				};
 				class Item25
 				{
@@ -83560,17 +83578,18 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14577.947,22.392883,16761.369};
-						angles[]={3.1415927,0.78539819,0};
+						position[]={14579.71,19.623882,16763.156};
+						angles[]={0,2.3561945,0};
 					};
 					side="Empty";
 					flags=1;
 					class Attributes
 					{
+						init="this setObjectTexture [0, ""A3CN\imagens\billboard_fardas_01.paa""];";
 					};
 					id=3324;
 					type="Land_Billboard_02_blank_F";
-					atlOffset=3.1830006;
+					atlOffset=0.41399956;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -83600,17 +83619,18 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14576.314,18.489485,16759.125};
+						position[]={14576.314,18.489883,16759.125};
 						angles[]={0,5.4977875,0};
 					};
 					side="Empty";
 					flags=5;
 					class Attributes
 					{
+						init="this setObjectTexture [0, ""A3CN\imagens\billboard_fardas_01.paa""];";
 					};
 					id=3325;
 					type="Land_Billboard_02_blank_F";
-					atlOffset=-0.59539795;
+					atlOffset=-0.59499931;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -83923,17 +83943,18 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14587.146,18.940659,16760.637};
-						angles[]={0,0.78539824,0};
+						position[]={14587.146,18.940855,16760.637};
+						angles[]={0,0.78539819,0};
 					};
 					side="Empty";
 					flags=5;
 					class Attributes
 					{
+						init="this setObjectTexture [0, ""A3CN\imagens\billboard_cfod_01.paa""];";
 					};
 					id=3334;
 					type="Land_Billboard_03_blank_F";
-					atlOffset=-0.92519569;
+					atlOffset=-0.92499924;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -87075,17 +87096,18 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14642.637,18.570667,16736.115};
+						position[]={14642.637,18.570854,16736.115};
 						angles[]={0,2.3561945,0};
 					};
 					side="Empty";
 					flags=5;
 					class Attributes
 					{
+						init="this setObjectTexture [0, ""A3CN\imagens\billboard_aerea_01.paa""];";
 					};
 					id=3397;
 					type="Land_Billboard_03_blank_F";
-					atlOffset=-1.295187;
+					atlOffset=-1.2950001;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -87275,17 +87297,18 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14646.391,18.199455,16838.377};
-						angles[]={0,3.9269915,0};
+						position[]={14646.39,18.199854,16838.377};
+						angles[]={0,3.9269907,0};
 					};
 					side="Empty";
 					flags=5;
 					class Attributes
 					{
+						init="this setObjectTexture [0, ""A3CN\imagens\billboard_armas_01.paa""];";
 					};
 					id=3404;
 					type="Land_Billboard_03_blank_F";
-					atlOffset=-1.666399;
+					atlOffset=-1.6660004;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -88656,7 +88679,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="this setObjectTexture [0, ""A3CN\imagens\018.paa""];" \n "this setObjectTexture [1, ""A3CN\imagens\018.paa""];";
+						init="this setObjectTexture [0, ""A3CN\imagens\billboard_cfod_01.paa""];" \n "this setObjectTexture [1, ""A3CN\imagens\018.paa""];";
 					};
 					id=3435;
 					type="Land_Billboard_04_blank_F";
@@ -88770,17 +88793,18 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14590.149,18.737211,16678.623};
+						position[]={14590.15,18.736855,16678.623};
 						angles[]={0,5.4977875,0};
 					};
 					side="Empty";
 					flags=5;
 					class Attributes
 					{
+						init="this setObjectTexture [0, ""A3CN\imagens\billboard_aerea_01.paa""];";
 					};
 					id=3439;
 					type="Land_Billboard_03_blank_F";
-					atlOffset=-1.128643;
+					atlOffset=-1.1289997;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -89043,7 +89067,7 @@ class Mission
 				};
 			};
 			id=3323;
-			atlOffset=2.1891937;
+			atlOffset=2.1891823;
 		};
 		class Item41
 		{
